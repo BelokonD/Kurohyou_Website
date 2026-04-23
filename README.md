@@ -10,7 +10,6 @@ game_id: int <br />
 character_id: int A.I, <br />
 name: varchar, <br />
 description: text, <br />
-game_id: int, <br />
 association: varchar, <br />
 char_type: varchar, <br />
 photo: longblob <br />
@@ -24,3 +23,8 @@ platforms: varchar, <br />
 countries: varchar, <br />
 developer: varchar, <br />
 publisher: varchar <br />
+<br />
+**Таблиця "game_to_character:** <br />
+id: int A.I, <br />
+character_id: int, <br />
+game_id: int, <br />
